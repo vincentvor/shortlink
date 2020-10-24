@@ -21,7 +21,8 @@ npm run build
 第4个小时构建Vue+ElementUI，不得不说是真的好用
 第5个小时，就是现在，我在发布项目。
 
-总结：
+# 总结：
 1。PHP用json_encode($arr)的时候，如果arr提前有键值对的形式，在用数字作为key的情况下，那么保存也是键值对的形式（key value）。但如果不是提前规定好了，直接上arr【】】，那么jsonencode后，就没有key了。
 2。php用strpos查找，得用==false判断它没有出现。但是！如果出现的位置在第0个（即最开头出现了要查找的字符串），那么，==false是成立的！
 3.vue里有时候需要把observer对象转化为json对象进行操作，可以用JSON。stringfy+JSON，parse二度操作。
+4。学习某个知识点，先找到这个知识点是什么，然后看文档解决。这样比等着找一篇CSDN手把手告诉你怎么做要强。
